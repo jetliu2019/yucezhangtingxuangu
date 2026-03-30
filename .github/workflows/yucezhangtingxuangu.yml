@@ -16,7 +16,7 @@ jobs:
   stock-picking:
     runs-on: ubuntu-latest
     # 设置超时时间，避免卡住浪费额度
-    timeout-minutes: 120
+    timeout-minutes: 240
     
     steps:
       - name: 📥 检出代码
